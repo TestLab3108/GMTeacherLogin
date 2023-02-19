@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="DemoXmlfile" verbose="1" >
+  <test name="New Account creation for Student" >
+  
+  
+     <parameter name="url" value="https://gurumavin.in/"></parameter>
+     <parameter name="name" value="Asad Shaikh"></parameter>
+     <parameter name="login" value="asadullahs291@gmail..com"></parameter> 
+     <parameter name="number" value="7841081942"></parameter> 
+     <parameter name="pwd" value="123456789"></parameter> 
+     <parameter name="cpwd" value="123456789"></parameter>      
+ 
+    <classes>
+       <class name="gmlogin.newaccountstudent"/>
+    
+    </classes>
+  </test>
+</suite>
